@@ -1,0 +1,106 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(52, 52, 52);
+    
+}
+
+nav
+{
+    background-color: rgb(255, 62, 62);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#delete
+{
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    margin-top: 1%;
+}
+
+#compte
+{
+    text-align: center;
+    border: 1px solid rgb(255, 62, 62);
+    background-color: rgb(245, 193, 193);
+}
+
+#menu
+{
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+#menu > ul > li 
+{
+    float:left;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+#menu > ul > li > a 
+{
+    display: block;
+    font: normal bold 14px tahoma;
+    background: #ba1c00;
+    min-width :100px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu > ul > li > a:hover 
+{
+    background: #666;
+    color: yellow;
+}
+
+#menu ul li ul 
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+#menu ul li ul li 
+{
+    display: block;
+}
+
+#menu ul li ul li:hover 
+{
+    background-color: #ccc;
+}
+
+#menu > ul > li > ul > li > a 
+{
+    background:#ba1c00;
+    display: block;
+    font: normal normal 12px tahoma;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    min-width: 130px;
+}
+
+ #menu > ul > li > ul > li > a:hover 
+{
+  background:#777;
+}

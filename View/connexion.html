@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Connexion </title>
+    <link rel = "stylesheet" href = "../Style/inscription.css">
+</head>
+<body>
+    <nav> 
+        <h1> ♡STARE♡ </h1>
+    </nav>
+    <section>
+        <h2> Connexion </h2>
+        <form id = "connexion">
+            <div class = "flex">
+                <h3> Email: </h3>
+                <input type = "text" name = "email" id = "email" required>
+            </div>
+            <div class = "flex">
+                <h3> Mot de passe: </h3>
+                <input type = "password" name = "mot_de_passe" id = "password" required>
+            </div>
+            <button type = "submit" name = "submit" class = "submit"> Se connecter </button>
+            <p id = "error-message">Identifiants incorrects</p>
+        </form>
+    </section>
+    <a href = "inscription.html"> Pas de compte? Créez-en un </a>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "../Script/connexion.js"></script>
+</body>
+</html>

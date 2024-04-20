@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Inscription </title>
+    <link rel = "stylesheet" href = "../Style/inscription.css">
+</head>
+<body>
+    <nav>
+        <h1> ♡STARE♡ </h1>
+    </nav>
+    <section>
+        <form id = "inscription" action = "../Controller/inscription_controller.php" method = "post">
+            <div class = "flex">
+                <h3> Genre: </h3>
+                <select name = "genre">
+                    <option> Homme </option>
+                    <option> Femme </option>
+                    <option> Autre </option>
+                </select>
+            </div>
+            <div class = "flex">
+                <h3> Nom: </h3>
+                <input type = "text" name = "nom" id = "nom" required>
+            </div>
+            <div class = "flex">
+                <h3> Prénom: </h3>
+                <input type = "text" name = "prénom" id = "prenom" required>
+            </div>
+            <div class = "flex">
+                <h3> Date de naissance: </h3>
+                <input type = "date" name = "date_de_naissance" id = "date_de_naissance" required>
+            </div>
+            <div class = "flex">
+                <h3> Ville: </h3>
+                <input type = "text" name = "ville" id = "ville" required>
+            </div>
+            <div class = "flex">
+                <h3> Email: </h3>
+                <input type = "text" name = "email" id = "email" required>
+            </div>
+            <div class = "flex">
+                <h3> Mot de passe: </h3>
+                <input type = "password" name = "mot_de_passe" id = "password" required>
+            </div>
+            <div class = "flex">
+                <h3> Loisirs: </h3>
+                <input type = "text" name = "loisir" id = "loisir1" required>
+                <input type = "text" name = "loisir2" id  = "loisir2">
+                <input type = "text" name = "loisir3" id = "loisir3">
+            </div>
+            <button type = "submit" name = "submit" class = "submit"> Envoyez </a> 
+        </form>
+    </section>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "../Script/inscription.js"></script>
+</body>
+</html>
